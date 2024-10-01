@@ -14,12 +14,15 @@ fetch('data.json')
         const submitGuess = document.getElementById("submit-guess");
         const resultDiv = document.getElementById("result");
 
+        let guessedProphets = []; 
+
         function addRow(guess, attributes) {
             const row = document.createElement('tr');
-
+        
+            let delay = 0;
             for (const key in attributes) {
                 const cell = document.createElement('td');
-
+        
                 if (key === 'annee') {
                     cell.textContent = guess[key];
                     if (guess[key] > attributes[key]) {
@@ -39,19 +42,27 @@ fetch('data.json')
                         cell.classList.add("incorrect");
                     }
                 }
+        
+                // Appliquer l'animation avec un délai croissant
+                cell.style.animationDelay = `${delay}s`;
+                cell.classList.add("animated-cell");
+                delay += 0.2; // Augmente le délai pour chaque cellule
+        
                 row.appendChild(cell);
             }
-
+        
             guessTable.appendChild(row);
         }
+        
 
         submitGuess.addEventListener("click", () => {
             const guessName = guessInput.value.toUpperCase().trim();
             const guess = prophets.find(prophet => prophet.name === guessName);
 
-            if (guess) {
+            if (guess && !guessedProphets.includes(guessName)) {
                 addRow(guess, randomProphet);
-            } else {
+                guessedProphets.push(guessName); // Ajouter le prophète deviné à la liste
+            } else if (!guess) {
                 resultDiv.textContent = "Prophète non trouvé ! Essayez à nouveau.";
             }
 
@@ -64,7 +75,10 @@ fetch('data.json')
             suggestionsDiv.innerHTML = ""; 
 
             if (inputValue.length > 0) {
-                const filteredProphets = prophets.filter(prophet => prophet.name.includes(inputValue.toUpperCase()));
+                // Filtrer les prophètes en excluant ceux déjà devinés
+                const filteredProphets = prophets.filter(prophet => 
+                    prophet.name.includes(inputValue.toUpperCase()) && !guessedProphets.includes(prophet.name)
+                );
 
                 if (filteredProphets.length > 0) {
                     filteredProphets.forEach(prophet => {

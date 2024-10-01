@@ -43,12 +43,25 @@ th {
     background-color: #FFD700;
 }
 
+#input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto; /* Centrer horizontalement */
+}
+
+/* Centrer et ajuster la taille de l'input */
 input {
+    width: 100%; /* Prendre toute la largeur du conteneur */
     padding: 10px;
     font-size: 16px;
+    box-sizing: border-box; /* S'assurer que le padding est inclus dans la largeur */
 }
 
 button {
+    width: 100%; /* Prendre toute la largeur du conteneur */
     padding: 10px 20px;
     background-color: #538D4E;
     color: #fff;
@@ -57,7 +70,6 @@ button {
     cursor: pointer;
     margin-top: 10px;
 }
-
 button:hover {
     background-color: #457B3A;
 }
@@ -71,10 +83,10 @@ button:hover {
     color: white;
     max-height: 150px;
     overflow-y: auto;
-    width: 100%;
-    max-width: 800px;
+    width: 100%; /* La boîte de suggestions prendra la même taille que l'input */
     margin-top: 5px;
     border: 1px solid #555;
+    box-sizing: border-box; /* S'assurer que la bordure est incluse dans la largeur */
 }
 
 .suggestion-item {
@@ -85,9 +97,33 @@ button:hover {
 .suggestion-item:hover {
     background-color: #538D4E;
 }
-
 td:after {
     font-size: 12px;
     padding-left: 5px;
     vertical-align: middle;
+}
+
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animated-cell {
+    opacity: 0;
+    animation: slideInFromRight 0.5s forwards;
+}
+
+#input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto; /* Centrer horizontalement */
 }
