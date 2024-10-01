@@ -1,0 +1,152 @@
+[
+    {
+        "name": "MOHAMED",
+        "genre": "Masculin",
+        "role": "Prophète",
+        "espece": "Humain",
+        "ressource": "Foi",
+        "type_portee": "Oral",
+        "region": "Arabie",
+        "annee": 52
+    },
+    {
+        "name": "MOUSSA",
+        "genre": "Masculin",
+        "role": "Prophète",
+        "espece": "Humain",
+        "ressource": "Foi",
+        "type_portee": "Oral",
+        "region": "Égypte",
+        "annee": 771
+    },
+    {
+        "name": "ISSA",
+        "genre": "Masculin",
+        "role": "Prophète",
+        "espece": "Humain",
+        "ressource": "Foi",
+        "type_portee": "Oral",
+        "region": "Palestine",
+        "annee": 622
+    },
+    {
+        "name": "IBRAHIM",
+        "genre": "Masculin",
+        "role": "Prophète",
+        "espece": "Humain",
+        "ressource": "Foi",
+        "type_portee": "Oral",
+        "region": "Mésopotamie",
+        "annee": 1378
+    },
+    {
+        "name": "NOUH",
+        "genre": "Masculin",
+        "role": "Prophète",
+        "espece": "Humain",
+        "ressource": "Foi",
+        "type_portee": "Oral",
+        "region": "Moyen-Orient",
+        "annee": 2378
+    },
+    {
+        "name": "YOUSSOUF",
+        "genre": "Masculin",
+        "role": "Prophète",
+        "espece": "Humain",
+        "ressource": "Foi",
+        "type_portee": "Oral",
+        "region": "Égypte",
+        "annee": 978
+    },
+    {
+        "name": "YOUNOUS",
+        "genre": "Masculin",
+        "role": "Prophète",
+        "espece": "Humain",
+        "ressource": "Foi",
+        "type_portee": "Oral",
+        "region": "Ninive",
+        "annee": 178
+    },
+    {
+        "name": "DAWOUD",
+        "genre": "Masculin",
+        "role": "Prophète et Roi",
+        "espece": "Humain",
+        "ressource": "Foi",
+        "type_portee": "Oral",
+        "region": "Israël",
+        "annee": 378
+    },
+    {
+        "name": "SULAIMAN",
+        "genre": "Masculin",
+        "role": "Prophète et Roi",
+        "espece": "Humain",
+        "ressource": "Foi",
+        "type_portee": "Oral",
+        "region": "Israël",
+        "annee": 348
+    },
+    {
+        "name": "AYOUB",
+        "genre": "Masculin",
+        "role": "Prophète",
+        "espece": "Humain",
+        "ressource": "Foi",
+        "type_portee": "Oral",
+        "region": "Arabie",
+        "annee": 778
+    },
+    {
+        "name": "DJIBRIL",
+        "genre": "Masculin",
+        "role": "Ange",
+        "espece": "Céleste",
+        "ressource": "Aucune",
+        "type_portee": "Spirituel",
+        "region": "Cieux",
+        "annee": "Inconnu"
+    },
+    {
+        "name": "MIKAEL",
+        "genre": "Masculin",
+        "role": "Ange",
+        "espece": "Céleste",
+        "ressource": "Aucune",
+        "type_portee": "Spirituel",
+        "region": "Cieux",
+        "annee": "Inconnu"
+    },
+    {
+        "name": "ISRAFIL",
+        "genre": "Masculin",
+        "role": "Ange",
+        "espece": "Céleste",
+        "ressource": "Aucune",
+        "type_portee": "Spirituel",
+        "region": "Cieux",
+        "annee": "Inconnu"
+    },
+    {
+        "name": "MALIK",
+        "genre": "Masculin",
+        "role": "Ange",
+        "espece": "Céleste",
+        "ressource": "Aucune",
+        "type_portee": "Spirituel",
+        "region": "Enfer",
+        "annee": "Inconnu"
+    },
+    {
+        "name": "RIDWAN",
+        "genre": "Masculin",
+        "role": "Ange",
+        "espece": "Céleste",
+        "ressource": "Aucune",
+        "type_portee": "Spirituel",
+        "region": "Paradis",
+        "annee": "Inconnu"
+    }
+]

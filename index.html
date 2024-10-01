@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamdle - Lodle Version</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Islamdle</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Prophète</th>
+                <th>Genre</th>
+                <th>Rôle</th>
+                <th>Espèce</th>
+                <th>Ressource</th>
+                <th>Type de portée</th>
+                <th>Région</th>
+                <th>Date de naissance avant Hégire</th>
+            </tr>
+        </thead>
+        <tbody id="guess-table">
+            <!-- Dynamic content will be added here -->
+        </tbody>
+    </table>
+
+    <input type="text" id="guess-input" placeholder="Entrez le nom du prophète..." />
+    <div id="suggestions"></div>
+    <button id="submit-guess">Valider</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
