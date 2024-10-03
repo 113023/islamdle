@@ -1,8 +1,8 @@
-/* CSS Styles */
+/* General Page Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #222;
-    color: #fff;
+    background-color: #1C1C1C; /* Darker background */
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,83 +10,92 @@ body {
     padding: 20px;
 }
 
-h1 {
-    margin-bottom: 20px;
-}
-
+/* Table Styling */
 table {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     border-collapse: collapse;
     margin-bottom: 20px;
+    background-color: #252525; /* Dark table background */
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 th, td {
-    padding: 10px;
+    padding: 12px;
     text-align: center;
-    border: 1px solid #555;
+    border: 1px solid #3B3B3B; /* Soft border between cells */
 }
 
 th {
-    background-color: #333;
+    background-color: #333333;
 }
 
 .correct {
-    background-color: #538D4E;
+    background-color: #538D4E; /* Correct green */
 }
 
 .incorrect {
-    background-color: #8B0000;
+    background-color: #8B0000; /* Incorrect red */
 }
 
 .partial {
-    background-color: #FFD700;
+    background-color: #FFD700; /* Partial yellow */
 }
 
+td {
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Input and Button Styling */
 #input-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     max-width: 400px;
-    margin: 0 auto; /* Centrer horizontalement */
+    margin: 0 auto;
 }
 
-/* Centrer et ajuster la taille de l'input */
 input {
-    width: 100%; /* Prendre toute la largeur du conteneur */
+    width: 100%;
     padding: 10px;
     font-size: 16px;
-    box-sizing: border-box; /* S'assurer que le padding est inclus dans la largeur */
+    box-sizing: border-box;
+    border: 2px solid #555;
+    border-radius: 5px;
+    background-color: #2B2B2B;
+    color: #FFF;
 }
 
 button {
-    width: 100%; /* Prendre toute la largeur du conteneur */
-    padding: 10px 20px;
+    width: 100%;
+    padding: 12px;
     background-color: #538D4E;
-    color: #fff;
+    color: #FFF;
     border: none;
+    border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px;
 }
+
 button:hover {
     background-color: #457B3A;
 }
 
-#result {
-    margin-top: 20px;
-}
-
+/* Suggestions Box */
 #suggestions {
     background-color: #333;
     color: white;
     max-height: 150px;
     overflow-y: auto;
-    width: 100%; /* La boîte de suggestions prendra la même taille que l'input */
+    width: 100%;
     margin-top: 5px;
     border: 1px solid #555;
-    box-sizing: border-box; /* S'assurer que la bordure est incluse dans la largeur */
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .suggestion-item {
@@ -97,12 +106,8 @@ button:hover {
 .suggestion-item:hover {
     background-color: #538D4E;
 }
-td:after {
-    font-size: 12px;
-    padding-left: 5px;
-    vertical-align: middle;
-}
 
+/* Animations */
 @keyframes slideInFromRight {
     from {
         opacity: 0;
@@ -119,11 +124,7 @@ td:after {
     animation: slideInFromRight 0.5s forwards;
 }
 
-#input-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto; /* Centrer horizontalement */
+tbody tr {
+    margin-top: 10px; /* Add space between rows */
+    border-spacing: 0px;
 }
