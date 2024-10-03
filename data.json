@@ -1,152 +1,152 @@
 [
     {
         "name": "MOHAMED",
-        "genre": "Masculin",
         "role": "Prophète",
         "espece": "Humain",
-        "ressource": "Foi",
-        "type_portee": "Oral",
         "region": "Arabie",
-        "annee": 52
+        "annee": 52,
+        "langue": "Arabe",
+        "adversaires": "Quraysh",
+        "ecriture_ou_revelation": "Coran"
     },
     {
         "name": "MOUSSA",
-        "genre": "Masculin",
         "role": "Prophète",
         "espece": "Humain",
-        "ressource": "Foi",
-        "type_portee": "Oral",
         "region": "Égypte",
-        "annee": 771
+        "annee": 771,
+        "langue": "Hébreu",
+        "adversaires": "Pharaon",
+        "ecriture_ou_revelation": "Torah"
     },
     {
         "name": "ISSA",
-        "genre": "Masculin",
         "role": "Prophète",
         "espece": "Humain",
-        "ressource": "Foi",
-        "type_portee": "Oral",
         "region": "Palestine",
-        "annee": 622
+        "annee": 622,
+        "langue": "Araméen",
+        "adversaires": "Romains",
+        "ecriture_ou_revelation": "Injil"
     },
     {
         "name": "IBRAHIM",
-        "genre": "Masculin",
         "role": "Prophète",
         "espece": "Humain",
-        "ressource": "Foi",
-        "type_portee": "Oral",
         "region": "Mésopotamie",
-        "annee": 1378
+        "annee": 1378,
+        "langue": "Chaldéen",
+        "adversaires": "Nimrod",
+        "ecriture_ou_revelation": "Suhuf Ibrahim"
     },
     {
         "name": "NOUH",
-        "genre": "Masculin",
         "role": "Prophète",
         "espece": "Humain",
-        "ressource": "Foi",
-        "type_portee": "Oral",
         "region": "Moyen-Orient",
-        "annee": 2378
+        "annee": 2378,
+        "langue": "Inconnu",
+        "adversaires": "Les mécréants de son peuple",
+        "ecriture_ou_revelation": "Aucune"
     },
     {
         "name": "YOUSSOUF",
-        "genre": "Masculin",
         "role": "Prophète",
         "espece": "Humain",
-        "ressource": "Foi",
-        "type_portee": "Oral",
         "region": "Égypte",
-        "annee": 978
+        "annee": 978,
+        "langue": "Hébreu",
+        "adversaires": "Ses frères",
+        "ecriture_ou_revelation": "Aucune"
     },
     {
         "name": "YOUNOUS",
-        "genre": "Masculin",
         "role": "Prophète",
         "espece": "Humain",
-        "ressource": "Foi",
-        "type_portee": "Oral",
         "region": "Ninive",
-        "annee": 178
+        "annee": 178,
+        "langue": "Inconnu",
+        "adversaires": "Peuple de Ninive",
+        "ecriture_ou_revelation": "Aucune"
     },
     {
         "name": "DAWOUD",
-        "genre": "Masculin",
         "role": "Prophète et Roi",
         "espece": "Humain",
-        "ressource": "Foi",
-        "type_portee": "Oral",
         "region": "Israël",
-        "annee": 378
+        "annee": 378,
+        "langue": "Hébreu",
+        "adversaires": "Goliath",
+        "ecriture_ou_revelation": "Zabur"
     },
     {
         "name": "SULAIMAN",
-        "genre": "Masculin",
         "role": "Prophète et Roi",
         "espece": "Humain",
-        "ressource": "Foi",
-        "type_portee": "Oral",
         "region": "Israël",
-        "annee": 348
+        "annee": 348,
+        "langue": "Hébreu",
+        "adversaires": "Les démons",
+        "ecriture_ou_revelation": "Aucune"
     },
     {
         "name": "AYOUB",
-        "genre": "Masculin",
         "role": "Prophète",
         "espece": "Humain",
-        "ressource": "Foi",
-        "type_portee": "Oral",
         "region": "Arabie",
-        "annee": 778
+        "annee": 778,
+        "langue": "Arabe",
+        "adversaires": "Satan",
+        "ecriture_ou_revelation": "Aucune"
     },
     {
         "name": "DJIBRIL",
-        "genre": "Masculin",
         "role": "Ange",
         "espece": "Céleste",
-        "ressource": "Aucune",
-        "type_portee": "Spirituel",
         "region": "Cieux",
-        "annee": "Inconnu"
+        "annee": "Inconnu",
+        "langue": "Spirituelle",
+        "adversaires": "Aucun",
+        "ecriture_ou_revelation": "Révélation des messages divins"
     },
     {
         "name": "MIKAEL",
-        "genre": "Masculin",
         "role": "Ange",
         "espece": "Céleste",
-        "ressource": "Aucune",
-        "type_portee": "Spirituel",
         "region": "Cieux",
-        "annee": "Inconnu"
+        "annee": "Inconnu",
+        "langue": "Spirituelle",
+        "adversaires": "Aucun",
+        "ecriture_ou_revelation": "Aucune"
     },
     {
         "name": "ISRAFIL",
-        "genre": "Masculin",
         "role": "Ange",
         "espece": "Céleste",
-        "ressource": "Aucune",
-        "type_portee": "Spirituel",
         "region": "Cieux",
-        "annee": "Inconnu"
+        "annee": "Inconnu",
+        "langue": "Spirituelle",
+        "adversaires": "Aucun",
+        "ecriture_ou_revelation": "Sifflement de la trompette"
     },
     {
         "name": "MALIK",
-        "genre": "Masculin",
         "role": "Ange",
         "espece": "Céleste",
-        "ressource": "Aucune",
-        "type_portee": "Spirituel",
         "region": "Enfer",
-        "annee": "Inconnu"
+        "annee": "Inconnu",
+        "langue": "Spirituelle",
+        "adversaires": "Les damnés",
+        "ecriture_ou_revelation": "Aucune"
     },
     {
         "name": "RIDWAN",
-        "genre": "Masculin",
         "role": "Ange",
         "espece": "Céleste",
-        "ressource": "Aucune",
-        "type_portee": "Spirituel",
         "region": "Paradis",
-        "annee": "Inconnu"
+        "annee": "Inconnu",
+        "langue": "Spirituelle",
+        "adversaires": "Aucun",
+        "ecriture_ou_revelation": "Aucune"
     }
 ]
